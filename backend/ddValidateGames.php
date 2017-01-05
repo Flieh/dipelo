@@ -3,17 +3,10 @@
 	require "menu.html";
 	require "php/ddelofunc.php";
 
-<<<<<<< HEAD
-
-	$gameList = readJsontoArray("json/ddeloGameList.json");
-	$errorExit = false;
-
-=======
 	
 	$gameList = readJsontoArray("json/ddeloGameList.json");
 	$errorExit = false;	
 	
->>>>>>> b8ffaccac4246d757d4a0869c88d0703b4f2857d
 	// check for duplicate games
 	$arrayCount = count($gameList);
 	echo "There are currenty " , $arrayCount , " games in the Game List.</br>";
@@ -25,11 +18,7 @@
 			}
 		}
 	}
-<<<<<<< HEAD
-
-=======
 	
->>>>>>> b8ffaccac4246d757d4a0869c88d0703b4f2857d
 	// check that there is at least one winner per game
 	foreach ($gameList as $ak => $av) {
 		if ($gameList[$ak]->aResult=="Lose"&&
@@ -43,17 +32,10 @@
 				$errorExit = true;
 			}
 		}
-<<<<<<< HEAD
-
-	//terminate script if a game list error has been found
-	if ($errorExit) {exit;}
-
-=======
 	
 	//terminate script if a game list error has been found
 	if ($errorExit) {exit;}
 		
->>>>>>> b8ffaccac4246d757d4a0869c88d0703b4f2857d
 	// create an array filled with unique player names
 	$playerList = array();
 	foreach ($gameList as $a => $b) {
@@ -66,13 +48,8 @@
 								strtolower(trim($gameList[$a]->rEmail)),
 								strtolower(trim($gameList[$a]->tEmail))
 								);
-<<<<<<< HEAD
-
-		// compare the players in the current game and the unique player list, avoid doubles
-=======
 									
 		// compare the players in the current game and the unique player list, avoid doubles						
->>>>>>> b8ffaccac4246d757d4a0869c88d0703b4f2857d
 		foreach ($thisGamePlayers as $c => $d) {
 			foreach ($playerList as $e => $f) {
 				if ($d == $f) {
@@ -80,11 +57,7 @@
 				}
 			}
 		}
-<<<<<<< HEAD
-
-=======
 		
->>>>>>> b8ffaccac4246d757d4a0869c88d0703b4f2857d
 		//search the playerList for similarities
 		$sim = 0;
 		foreach ($playerList as $ak => $av) {
@@ -103,25 +76,12 @@
 				}
 			}
 		}
-<<<<<<< HEAD
-
-=======
 		
->>>>>>> b8ffaccac4246d757d4a0869c88d0703b4f2857d
 		// write new players into player list
 		$holder = null;
 		foreach ($thisGamePlayers as $g => $h) {
 			$playerList[] = $thisGamePlayers[$g];
 		}
-<<<<<<< HEAD
-
-
-	}
-
-	writeplayerList($playerList);
-
-?>
-=======
 			
 		
 	}
@@ -129,4 +89,3 @@
 	writeplayerList($playerList);
 
 ?>
->>>>>>> b8ffaccac4246d757d4a0869c88d0703b4f2857d

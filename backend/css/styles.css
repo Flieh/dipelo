@@ -6,34 +6,15 @@
     font-family: "Gamaliel";
     src: url("../fonts/Gamaliel.woff") format('woff');
 }
-<<<<<<< HEAD
-
-@font-face {
-	font-family: "pristina";
-	src : url("../fonts/pristina.woff") format('woff');
-}
-
-@font-face {
-	font-family: "goodfish it";
-	src: url("../fonts/goodfish it.woff") format('woff');
-}
-body {
-	font-family:"Gamaliel";
-=======
 body {
 	font-family:"centabel";
->>>>>>> b8ffaccac4246d757d4a0869c88d0703b4f2857d
 	background-color:darkgreen;
 	width:120%;
 }
 div {
 	padding:0;
 	margin:0;
-<<<<<<< HEAD
-
-=======
 	
->>>>>>> b8ffaccac4246d757d4a0869c88d0703b4f2857d
 }
 p {
 	padding:0;
@@ -54,34 +35,19 @@ td {
 	margin:8px;
 	border:0px black solid;
 }
-<<<<<<< HEAD
-
-.title {
-	font-family: "Gamaliel";
-}
-=======
->>>>>>> b8ffaccac4246d757d4a0869c88d0703b4f2857d
 .divOne {
 	margin:10px;
 	padding:10px;
 	border-radius:10px;
 	float:left;
-<<<<<<< HEAD
 	background-color:lightgreen;
-=======
-	background-color:#C3F0AA;
->>>>>>> b8ffaccac4246d757d4a0869c88d0703b4f2857d
 	border:2px black solid;
 }
 .divTwo {
 	margin:10px;
 	padding:10px;
 	border-radius:10px;
-<<<<<<< HEAD
 	background-color:pink;
-=======
-	background-color:white;
->>>>>>> b8ffaccac4246d757d4a0869c88d0703b4f2857d
 	font-size:8pt;
 	float:left;
 	width:250px;
@@ -90,11 +56,7 @@ td {
 	margin:10px;
 	padding:10px;
 	border-radius:10px;
-<<<<<<< HEAD
 	background-color:lightgreen;
-=======
-	background-color:white;
->>>>>>> b8ffaccac4246d757d4a0869c88d0703b4f2857d
 	float:left;
 }
 .legend {
