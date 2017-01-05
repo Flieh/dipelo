@@ -1,0 +1,17 @@
+	<form name="jump" action="" method="post"> 
+		<p align="center"> 
+			<select name="menu"> 
+				<option value="ddDisplayPlayerStats.php">Show Player Stats</option>
+				<option value="ddPStatsExp.php">Detailed Games and Stats</option>
+			</select> 
+		</p> 
+		<div align="center"> 
+			<table border="0" cellpadding="8" cellspacing="8" summary="feedback form"> 
+				
+				<tr><td align="center" colspan="2"><input type="button" value="Confirm" onclick='submitForm();'/><br /></td></tr> 
+			</table> 
+			</div> 
+	</form> 
+	
+	<script type='text/javascript'> function submitForm() { var form = document.forms["jump"]; var selValue = form.menu.options[form.menu.selectedIndex].value; form.action = selValue; form.submit(); } 
+	</script> 

@@ -1,0 +1,186 @@
+@font-face {
+    font-family: "centabel";
+    src: url("../fonts/centabel.woff") format('woff');
+}
+@font-face {
+    font-family: "Gamaliel";
+    src: url("../fonts/Gamaliel.woff") format('woff');
+}
+<<<<<<< HEAD
+
+@font-face {
+	font-family: "pristina";
+	src : url("../fonts/pristina.woff") format('woff');
+}
+
+@font-face {
+	font-family: "goodfish it";
+	src: url("../fonts/goodfish it.woff") format('woff');
+}
+body {
+	font-family:"Gamaliel";
+=======
+body {
+	font-family:"centabel";
+>>>>>>> b8ffaccac4246d757d4a0869c88d0703b4f2857d
+	background-color:darkgreen;
+	width:120%;
+}
+div {
+	padding:0;
+	margin:0;
+<<<<<<< HEAD
+
+=======
+	
+>>>>>>> b8ffaccac4246d757d4a0869c88d0703b4f2857d
+}
+p {
+	padding:0;
+	margin:0;
+}
+
+table {
+	padding:0;
+	margin:0;
+	border:2px black solid;
+}
+tr {
+	margin:10px;
+	padding:10px;
+}
+td {
+	padding:8px;
+	margin:8px;
+	border:0px black solid;
+}
+<<<<<<< HEAD
+
+.title {
+	font-family: "Gamaliel";
+}
+=======
+>>>>>>> b8ffaccac4246d757d4a0869c88d0703b4f2857d
+.divOne {
+	margin:10px;
+	padding:10px;
+	border-radius:10px;
+	float:left;
+<<<<<<< HEAD
+	background-color:lightgreen;
+=======
+	background-color:#C3F0AA;
+>>>>>>> b8ffaccac4246d757d4a0869c88d0703b4f2857d
+	border:2px black solid;
+}
+.divTwo {
+	margin:10px;
+	padding:10px;
+	border-radius:10px;
+<<<<<<< HEAD
+	background-color:pink;
+=======
+	background-color:white;
+>>>>>>> b8ffaccac4246d757d4a0869c88d0703b4f2857d
+	font-size:8pt;
+	float:left;
+	width:250px;
+}
+.divThree {
+	margin:10px;
+	padding:10px;
+	border-radius:10px;
+<<<<<<< HEAD
+	background-color:lightgreen;
+=======
+	background-color:white;
+>>>>>>> b8ffaccac4246d757d4a0869c88d0703b4f2857d
+	float:left;
+}
+.legend {
+	margin:10px;
+	padding:10px;
+	border-radius:10px;
+	background-color:lightgray;
+	font-size:75%;
+	float:left;
+	width:600px;
+
+}
+.numbers {
+	color:red;
+}
+.table {
+	align:center;
+}
+.border {
+}
+.clear {
+	clear:both;
+}
+.large {
+	font-size:120%;
+}
+.small {
+	font-size:80%;
+}
+.color {
+	color:black;
+}
+.underline {
+	text-decoration:underline;
+}
+.bold {
+	font-weight:bold;
+}
+p {
+	padding:0;
+	margin:0;
+}
+.tableHeader {
+	border-bottom:5px black solid;
+}
+.center {
+	text-align:center;
+}
+.left {
+	text-align:left;
+}
+.right {
+	text-align:right;
+}
+.section {
+	background-color:#C3F0AA;
+	border:2px black solid;
+	margin:10px;
+	padding:10px;
+	border-radius:10px;
+	float:center;
+	width:200px;
+	float:left;
+}
+.Austria {
+	background-color:#BFEB8F;
+}
+.England {
+	background-color:#6C6389;
+	}
+.France {
+	background-color:#77A8BB;
+}
+.Germany {
+	background-color:#FFA284;
+}
+.Italy {
+	background-color:#488980;
+}
+.Russia {
+	background-color:#A37E86;
+}
+.Turkey {
+	background-color:#FFE284;
+	}
+.details {
+	background-color:white;
+	font-size:10pt;
+}
