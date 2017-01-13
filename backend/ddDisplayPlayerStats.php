@@ -11,6 +11,7 @@
 	<link rel="stylesheet" href="fonts/centabel/font.css">
 	
 	<link rel="stylesheet" href="css/styles.css">
+	 <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Special+Elite" />
    
 </head>
 <body>

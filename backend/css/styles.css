@@ -3,11 +3,11 @@
     src: url("../fonts/centabel.woff") format('woff');
 }
 @font-face {
-    font-family: "Gamaliel";
-    src: url("../fonts/Gamaliel.woff") format('woff');
+    font-family: "Special Elite";
+    src: url("https://fonts.googleapis.com/css?family=Special+Elite") format('woff');
 }
 body {
-	font-family:"centabel";
+	font-family:"Special Elite";
 	background-color:darkgreen;
 	width:120%;
 }
